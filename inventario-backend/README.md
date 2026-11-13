@@ -45,17 +45,9 @@ Solo `codigo` es obligatorio. `latitud`/`longitud` vienen del GPS y `luz` del se
 
 ## Documentación interactiva (Swagger UI)
 
-Con la aplicación en marcha, la dirección base (`/`) redirige a Swagger UI. También puedes abrir `/swagger-ui/index.html` (por ejemplo `https://aplicacion-u2.onrender.com/swagger-ui.html`).
+Con la aplicación en marcha, la dirección base (`/`) redirige a Swagger UI. También puedes abrir `/swagger-ui/index.html` (por ejemplo `https://aplicacion-u3.onrender.com`).
 La especificación OpenAPI en JSON está en `/v3/api-docs`.
 
-## Ejecutar en local
-
-1. Tener PostgreSQL con una base llamada `inventario`. Con Docker:
-   ```
-   docker run --name pg -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=inventario -p 5432:5432 -d postgres:16
-   ```
-2. `mvn spring-boot:run`
-3. Probar: `GET http://localhost:8080/health`
 
 ## Variables de entorno
 
