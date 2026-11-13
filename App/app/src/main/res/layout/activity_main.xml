@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtSaludo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hola"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Computadores registrados" />
+
+        <Spinner
+            android:id="@+id/spinnerComputadores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Datos del computador"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id del computador (código)"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marca"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Categoría"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtMarcaCpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marca del CPU"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtVelocidadCpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Velocidad del CPU (GHz)"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtTecnologiaRam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tecnología de la RAM"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtCapacidadRam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Capacidad de la RAM"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtCapacidadDisco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Capacidad del disco"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtTecnologiaDisco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tecnología del disco"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtNumPuertosUsb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de puertos USB"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtNumPuertosHdmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de puertos HDMI"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtMarcaMonitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marca del monitor"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtPulgadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pulgadas"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/txtSensores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Sensores: esperando datos..."
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar computador"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar computador" />
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpiar formulario" />
+
+        <Button
+            android:id="@+id/btnInventario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir al inventario por usuario" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar sesión" />
+
+        <ProgressBar
+            android:id="@+id/progreso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "447299801343",
+    "firebase_url": "https://unidad1-57a50-default-rtdb.firebaseio.com",
+    "project_id": "unidad1-57a50",
+    "storage_bucket": "unidad1-57a50.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447299801343:android:3c5df485d61ad9570d3cca",
+        "android_client_info": {
+          "package_name": "com.jeancarlos.unidad1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7MXBSyoxhRZN3XPArhs_UMFzGDjlcjks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
